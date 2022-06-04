@@ -1,0 +1,21 @@
+
+
+deb http://debian.c3sl.ufpr.br/debian/ bullseye main contrib non-free
+deb-src http://debian.c3sl.ufpr.br/debian/ bullseye main contrib non-free
+
+deb http://security.debian.org/debian-security bullseye-security main contrib non-free
+deb-src http://security.debian.org/debian-security bullseye-security main contrib non-free
+
+# bullseye-updates, to get updates before a point release is made;
+# see https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_updates_and_backports
+deb http://debian.c3sl.ufpr.br/debian/ bullseye-updates main contrib non-free
+deb-src http://debian.c3sl.ufpr.br/debian/ bullseye-updates main contrib non-free
+deb http://deb.debian.org/debian bullseye-backports main contrib non-free
+###deb http://deb.debian.org/debian/backports main contrib non-free
+
+# repo do virtual box
+deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian bullseye contrib
+
+# repo do TeamViewer
+deb http://linux.teamviewer.com/deb stable main
+
